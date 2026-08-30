@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated work and the original dataset publication."
+title: "Reproducible Experiments for Early Dyslexia Risk Screening"
+type: software
+authors:
+  - family-names: "Sandoval Vasquez"
+    given-names: "Sofia Isabela"
+    orcid: "https://orcid.org/0009-0008-3688-0771"
+  - family-names: "Sandoval Acevedo"
+    given-names: "Estuardo Antonio"
+    orcid: "https://orcid.org/0009-0005-2146-6699"
+  - family-names: "Mansilla Arreola"
+    given-names: "Silvia del Pilar"
+    orcid: "https://orcid.org/0009-0008-7091-5413"
+version: "1.0.0"
+date-released: "2026-08-30"

@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Generated duplicate of the final improved workbook
+data/processed/analysis_input.csv
+
+# Fresh reruns; curated outputs remain under results/tables, predictions, etc.
+results/generated/
+

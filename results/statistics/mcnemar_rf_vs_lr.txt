@@ -1,0 +1,3 @@
+RF correct / LR wrong: 394
+RF wrong / LR correct: 363
+Exact McNemar p-value: 0.27554093
