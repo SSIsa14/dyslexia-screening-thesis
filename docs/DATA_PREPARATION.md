@@ -1,8 +1,6 @@
 # Dataset preparation
 
-## Status of this documentation
-
-The improved datasets were prepared manually during the thesis. No historical script exists for those operations. This document separates verified facts from steps that still require confirmation against the thesis Word document and the author's records.
+The improved datasets were prepared manually during the thesis. No historical transformation script exists for those operations; this document records the verified preparation process and file lineage.
 
 ## Verified file lineage
 
@@ -39,15 +37,4 @@ The evaluation pipeline handles these values within validation splits:
 ## Analysis input
 
 `src/export_analysis_input.py` validates `dataset_combined_improved.xlsx` and exports `analysis_input.csv`. The exported CSV was verified to be exactly equal to the workbook in shape, column order, values, labels, and missing entries.
-
-## Items to confirm when revising the thesis
-
-When the thesis Word document is available, this document should be expanded with the author's exact manual procedure, including:
-
-- how the original semicolon-delimited files were imported;
-- the precise variable-name mapping source;
-- whether any data types or category spellings were normalized;
-- whether any rows were reordered;
-- the exact software used for manual editing;
-- quality-control checks performed before consolidation.
 

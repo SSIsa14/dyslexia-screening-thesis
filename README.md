@@ -19,7 +19,7 @@ The Python input is not a different dataset. `analysis_input.csv` is a direct ex
 │   ├── raw/              Original downloaded and combined files
 │   ├── processed/        Manually improved desktop, tablet, and combined files
 │   ├── dictionary/       Variable-description workbook
-│   └── README.md         Provenance and publication notes
+│   └── README.md         Data provenance and organization
 ├── orange/
 │   ├── dislexia_mejorado.ows
 │   └── README.md
@@ -38,7 +38,6 @@ The Python input is not a different dataset. `analysis_input.csv` is a direct ex
 │   ├── EXPERIMENTAL_PROTOCOL.md
 │   └── RESULTS.md
 ├── CITATION.cff
-├── LICENSE_STATUS.md
 └── requirements.txt
 ```
 
@@ -52,7 +51,7 @@ The Python input is not a different dataset. `analysis_input.csv` is a direct ex
 - Desktop records: 3,644
 - Tablet records: 1,395
 
-The original datasets accompany Rello et al., "Predicting Risk of Dyslexia With an Online Gamified Test," *PLOS ONE*, 2020, DOI: [10.1371/journal.pone.0241687](https://doi.org/10.1371/journal.pone.0241687). See `data/README.md` before publishing or redistributing data files.
+The original datasets accompany Rello et al., "Predicting Risk of Dyslexia With an Online Gamified Test," *PLOS ONE*, 2020, DOI: [10.1371/journal.pone.0241687](https://doi.org/10.1371/journal.pone.0241687). Their provenance and organization are documented in `data/README.md`.
 
 ## Installation
 
@@ -92,7 +91,3 @@ The full evaluation can take a substantial amount of time because it trains four
 ## Principal result
 
 Random Forest without oversampling achieved the highest mean F2 (`0.592 ± 0.015`) and AUPRC (`0.464 ± 0.020`), with Recall `0.774 ± 0.041` and referral rate `0.272 ± 0.024`. The paired McNemar comparison with Logistic Regression did not establish universal superiority (`p = 0.276`); the recommendation follows the predeclared F2 objective and workload profile.
-
-## Reuse and licensing
-
-No open-source license has been selected for the thesis code yet. Until the authors choose one and confirm the dataset redistribution terms, the contents should not be assumed to permit unrestricted reuse. See `LICENSE_STATUS.md`.

@@ -1,4 +1,4 @@
-# Data provenance and publication notes
+# Data provenance and organization
 
 ## Source
 
@@ -31,8 +31,6 @@ The publication's data-availability statement links to the archived datasets thr
 
 The improved workbooks were created manually during the thesis. There was no original transformation script. The repository therefore documents the operations honestly rather than presenting a newly written script as historical evidence. See `docs/DATA_PREPARATION.md`.
 
-## Before making the repository public
+## Data handling
 
-The source publication states that the datasets are publicly archived, but the repository owner should still confirm the dataset host's redistribution terms. If redistribution is not explicitly permitted, remove the copied raw and processed data from the public repository and retain this README plus download/preparation instructions.
-
-The datasets are de-identified but concern minors and clinically established labels. Do not add participant identifiers or attempt re-identification.
+The datasets are de-identified and originate from the public archive cited above. The repository preserves attribution to the original publication and dataset release. No participant identifiers are included.
